@@ -1,11 +1,7 @@
-import "./App.css";
-
-function App() {
+export default function App() {
   return (
-    <>
-      <h1>148</h1>
-    </>
+    <div className="max-w-60 mx-auto text-white flex items-baseline justify-center">
+      <h1 className="text-9xl">148</h1>
+    </div>
   );
 }
-
-export default App;
